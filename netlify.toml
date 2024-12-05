@@ -1,8 +1,8 @@
 [[headers]]
   for = "/*"
   [headers.values]
-    Referrer-Policy = "no-referrer-when-downgrade"
-    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Origin = "https://al-in.fr"
     Access-Control-Allow-Methods = "GET, POST, OPTIONS, PUT, DELETE"
     Access-Control-Allow-Headers = "Authorization, Content-Type"
     Access-Control-Allow-Credentials = "true"
+    Referrer-Policy = "strict-origin-when-cross-origin"
