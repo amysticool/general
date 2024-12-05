@@ -1,0 +1,8 @@
+
+[[headers]]
+  for = "/main.js" # Indiquez le chemin spécifique au fichier
+  [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Methods = "GET, POST, OPTIONS, PUT, DELETE"
+    Access-Control-Allow-Headers = "Authorization, Content-Type"
+    Access-Control-Allow-Credentials = "true"
