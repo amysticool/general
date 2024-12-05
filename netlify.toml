@@ -1,7 +1,7 @@
-
 [[headers]]
-  for = "/main.js" # Indiquez le chemin spécifique au fichier
+  for = "/*"
   [headers.values]
+    Referrer-Policy = "no-referrer-when-downgrade"
     Access-Control-Allow-Origin = "*"
     Access-Control-Allow-Methods = "GET, POST, OPTIONS, PUT, DELETE"
     Access-Control-Allow-Headers = "Authorization, Content-Type"
